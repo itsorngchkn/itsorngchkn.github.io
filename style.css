@@ -1,0 +1,19 @@
+body {
+	background-image: url("gamingbg.png");
+}
+header {
+	font-family: 'Open Sans', sans-serif;
+	text-align: center;
+	font-style: italic;
+}
+
+h1 {
+	font-size: 50px;
+	font-family: 'Bagel Fat One', sans-serif;
+	font-style: normal;
+	padding-top: 20px -100px;
+}
+
+#bgtest {
+	color: #fdc275;
+}
