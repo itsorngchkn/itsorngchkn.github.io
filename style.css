@@ -4,6 +4,7 @@ body {
 header {
 	font-family: 'Open Sans', sans-serif;
 	font-style: italic;
+	text-align: center;
 }
 
 h1 {
@@ -18,7 +19,6 @@ h1 {
 }
 
 #chimkinbanner {
-	text-align: center;
 	width: 400px;
 	height: 160px;
 }
