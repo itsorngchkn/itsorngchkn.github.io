@@ -4,13 +4,13 @@ body {
 }
 header {
 	text-align: center;
-	font-family: 'Open Sans', sans-serif;
-	font-style: italic;
+	font-family: 'Open Sans';
 }
-h1 {
+nav {
 	font-size: 35px;
-	font-family: 'Bagel Fat One', sans-serif;
+	font-family: 'Sacramento';
 	font-style: normal;
+	font-weight: 600;
 }
 
 #bgtest {
@@ -22,7 +22,7 @@ h1 {
 	height: 120px;
 }
 
-#menu {
+a {
 	text-decoration: none;
 	color: #2D7632;
 }
