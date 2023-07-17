@@ -1,6 +1,6 @@
 /*overall look + bg */
 body {
-	background-image: url("gamingbg.png");
+	background-image: url("images used/gamingbg.png");
 	text-align: center;
 }
 
@@ -19,16 +19,16 @@ body {
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(40%, 50%);
-  font-size: 18px;
+  transform: translate(60%, 40%);
+  font-size: 15px;
   background-color: transparent;
   padding: 5px 10px;
 }
 #chknheader {
-    font-family: 'Pacifico', cursive;
-    font-size: 125px;
+    font-family: 'DynaPuff', cursive;
+    font-size: 100px;
     line-height: 0.75;
-    font-weight: 400;
+    font-weight: 300;
 }
 
 /* link deco removal */
@@ -37,8 +37,6 @@ a {
 	color: #ffffff;
 	
 }
-
-
 
 /* menu */
 .menu {
@@ -82,5 +80,3 @@ button {
 	width: 535px;
 	height: 140px;
 }
-
-/* .container-default { */
