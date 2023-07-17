@@ -1,28 +1,85 @@
+/*overall look + bg */
 body {
 	background-image: url("gamingbg.png");
 	text-align: center;
 }
-header {
-	text-align: center;
-	font-family: 'Open Sans';
-}
-nav {
-	font-size: 35px;
-	font-family: 'Sacramento';
-	font-style: normal;
-	font-weight: 600;
+
+/* header */
+.container {
+  position: relative;
+  text-align: center;
 }
 
-#bgtest {
-	color: #fdc275;
+.header {
+  font-size: 36px;
+  margin-bottom: 10px;
 }
 
-#chimkinbanner {
-	width: 700px;
-	height: 120px;
+.sub-header {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(40%, 50%);
+  font-size: 18px;
+  background-color: transparent;
+  padding: 5px 10px;
 }
 
+/* link deco removal */
 a {
 	text-decoration: none;
-	color: #2D7632;
+	color: #ffffff;
+	
 }
+
+#chknheader {
+    font-family: 'Pacifico', cursive;
+    font-size: 125px;
+    line-height: 0.75;
+    font-weight: 400;
+}
+
+/* menu */
+.menu {
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	gap: 15px;
+	padding-top: 50px;
+}	
+
+button {
+	display: inline-block;
+	color: white;
+	font-size: 25px;
+	font-family: 'Open Sans', sans-serif;
+	width: 400px;
+	padding: 5px 5px;
+	cursor: pointer;
+	border: none;
+	border-radius: 10px;
+	background-color: rgba(92,41,13,0.678);
+}
+
+/*text decorations */
+#pronounce {
+    color: rgba(0,0,0,0.612);
+    font-family: 'Open Sans', sans-serif;
+    padding-left: 0;
+    padding-right: 1rem;
+    letter-spacing: 0.075rem;
+    width: calc(100% + 0.075rem);
+    font-size: 1.125em;
+    line-height: 0.75;
+    font-weight: 300;
+}
+
+.chknhead {
+	padding: 25px 25px 25px 25px;
+	display: inline-block;
+	width: 535px;
+	height: 140px;
+}
+
+/* .container-default { */
