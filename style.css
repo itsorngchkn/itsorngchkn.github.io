@@ -24,6 +24,12 @@ body {
   background-color: transparent;
   padding: 5px 10px;
 }
+#chknheader {
+    font-family: 'Pacifico', cursive;
+    font-size: 125px;
+    line-height: 0.75;
+    font-weight: 400;
+}
 
 /* link deco removal */
 a {
@@ -32,12 +38,7 @@ a {
 	
 }
 
-#chknheader {
-    font-family: 'Pacifico', cursive;
-    font-size: 125px;
-    line-height: 0.75;
-    font-weight: 400;
-}
+
 
 /* menu */
 .menu {
